@@ -1,6 +1,6 @@
 # bookmarks
 
-A module to add bookmarks in a json file.
+A module to save bookmarks.
 
 ## Contributing
 

@@ -1,0 +1,13 @@
+# Configuration
+.venv
+.vscode
+.pytest_cache
+.DS_Store
+
+# Distribution
+*.egg-info
+build
+dist
+
+# Python
+**__pycache__
