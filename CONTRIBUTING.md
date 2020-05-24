@@ -9,13 +9,28 @@ The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL 
 The following tools are used on the project. Install them: 
 
 ```
-pip install autopep8 pytest pylint
+pip install autopep8 pytest pylint Faker
 ```
 
 Install the dependencies and use the editable mode:
 
 ```
 pip install -e .
+```
+
+## Tests
+
+To run the test suite:
+
+```
+pytest test
+```
+
+To get the coverage report:
+
+```
+coverage run --source=bookmarks -m pytest
+coverage report -m
 ```
 
 ## Merge requests

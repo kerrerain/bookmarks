@@ -1,0 +1,3 @@
+[run]
+omit =
+    */bookmarks/domain/link_adapter.py

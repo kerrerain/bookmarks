@@ -11,3 +11,6 @@ dist
 
 # Python
 **__pycache__
+
+# Test
+.coverage
